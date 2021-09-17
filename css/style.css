@@ -1,0 +1,187 @@
+.offset::before{
+    display: block;
+    content: "";
+    height: 4rem;
+}
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important ;
+    padding-left: 20px 0;
+
+}
+.img-fluid {
+    height: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #bg {
+   
+    width: 100%; 
+  }
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:aqua;
+}
+
+.heading-content{
+    position: absolute;
+    top:97% ;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 3em;
+    font-weight: 300;
+    color: azure;
+    font-family: monospace;
+}
+
+.heading-content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color: azure;
+    font-family: monospace;
+}
+
+.heading-content p{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #ccc;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+/* -----------About start---------------*/
+#about .btn{
+    border :2px;
+    width : 40%;
+    padding :15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color: azure;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#about .btn:hover{
+    border:2px solid #1ebba3;
+    cursor: pointer;
+
+}
+
+/*----------Service start--------------*/
+#service .button{
+    border :2px;
+    width : 40%;
+    padding :15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#service .button a{
+    color: azure;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#service .button:hover{
+    border:2px solid #1ebba3;
+    cursor: pointer;
+
+}
+
+/*----------Service End--------------*/
+
+/*----------Newletter start--------------*/
+
+.sec1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f8fafb;
+}
+
+.sec1 h2{
+    font-family: 'poppins' ,sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.sec1 p{
+    font-family: 'poppins' ,sans-serif;
+    font-weight: 400;
+}
+/*----------newsletter end--------------*/
+
+/*----------media query--------------*/
+
+@media screen and(max-width:767px) {
+      /* tablet screen*/
+      .navbar{
+        letter-spacing: 0.1rem;
+        padding-left: 10px 0;
+    
+    }
+    .heading-content h5{
+        font-size: 3em;
+        
+    }
+    .heading-content h1{
+        font-size: 3em;
+        
+    }
+    .heading-content p{
+        font-size: 0.9em;
+        
+    }
+
+     
+}
+
+@media screen and(max-width:479) {  
+     /* mobile screen*/
+     .navbar{
+        letter-spacing: 0.1rem;
+        padding-left: 7px 0;
+    
+    }
+    .heading-content h5{
+        font-size: 2em;
+        
+    }
+    .heading-content h1{
+        font-size: 2em;
+        
+    }
+    .heading-content p{
+        font-size: 0.7em;
+        
+    }
+     
+}
+
+
